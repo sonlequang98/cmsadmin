@@ -87,7 +87,8 @@ export default {
   beforeCreate() {
     axios.get("/users/getCurrentRole").then(res => {
       if (res.data === this.$store.state.role.contributor) {
-        this.$router.push({ name: "home" });
+        this.$store.dispatch("logout");
+        this.$router.push({ name: "login" });
       }
     });
   },

@@ -35,7 +35,7 @@
             <br />
             <span id="success-copy" v-if="successCopy&&(copyIndex===index)">Copied</span>
             <button
-              v-clipboard="() =>'http://adminsite.local/' + image.upload_path"
+              v-clipboard="() =>'http://sonlq-admin.herokuapp.com/' + image.upload_path"
               @click="copyImage(index)"
               class="btnCopy"
             >Copy</button>
@@ -68,7 +68,7 @@
             <button @click="closeDetail" id="btnCloseDetail">Close</button>
             <button
               id="btnCopyDetail"
-              v-clipboard="() =>'http://adminsite.local/' + imageDetail.upload_path"
+              v-clipboard="() =>'http://sonlq-admin.herokuapp.com/' + imageDetail.upload_path"
             >Copy</button>
           </div>
           <div id="detail-body">

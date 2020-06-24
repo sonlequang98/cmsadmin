@@ -89,7 +89,8 @@ export default {
         res.data === this.$store.state.role.contributor ||
         res.data === this.$store.state.role.editor
       ) {
-        this.$router.push({ name: "home" });
+        this.$store.dispatch("logout");
+        this.$router.push({ name: "login" });
       }
     });
   },

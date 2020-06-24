@@ -154,7 +154,7 @@ export default {
       category_child: [],
       release_numbers: [],
       dropzoneOptions: {
-        url: "http://adminsite.local/api/images",
+        url: "http://sonlq-admin.herokuapp.com/api/images",
         thumbnailWidth: 150,
         thumbnailHeight: 150,
         dictDefaultMessage:

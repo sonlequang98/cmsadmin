@@ -136,7 +136,7 @@ export default {
         margin: "10px , 0"
       },
       dropzoneOptions: {
-        url: "http://adminsite.local/api/images",
+        url: "http://sonlq-admin.herokuapp.com/api/images",
         thumbnailWidth: 160,
         thumbnailHeight: 160,
         dictDefaultMessage:
