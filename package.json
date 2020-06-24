@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+		"start": "node server.js"
         "dev:admin": "npm run development:admin",
         "development:admin": "cross-env process.env.section=admin NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch:admin": "npm run development:admin -- --watch",
