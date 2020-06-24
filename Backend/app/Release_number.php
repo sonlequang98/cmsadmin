@@ -12,7 +12,7 @@ class Release_number extends Model
 
     public function image()
     {
-        return $this->belongsTo('App\Image');
+        return $this->belongsTo('Image');
     }
     public function posts()
     {
