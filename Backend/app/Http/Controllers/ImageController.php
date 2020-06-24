@@ -55,6 +55,7 @@ class ImageController extends Controller
         $data = [
             'name' => $name,
             'upload_path' => '/web/images/' . $name,
+            'path' => public_path()
         ];
         return response()->json([
             'data' => $this->image->create($data),
