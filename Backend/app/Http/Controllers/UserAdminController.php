@@ -160,6 +160,6 @@ class UserAdminController extends Controller
             return auth('api')->user()->role_id;
         }
 
-        return UserRole::Member;
+        return UserRole::Contributor;
     }
 }
