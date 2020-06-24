@@ -3,6 +3,7 @@
 namespace Backend\Http\Controllers;
 
 use Backend\Enums\Message;
+use Backend\Enums\UserRole;
 use Backend\Http\Requests\PostUserAdminRequest;
 use Backend\Repositories\UserAdminRepositoryInterface;
 use Illuminate\Http\Request;
@@ -154,6 +155,11 @@ class UserAdminController extends Controller
 
     public function getRoleId()
     {
-        return auth('api')->user()->role_id;
+        if(auth('api')->user())
+        {
+            return auth('api')->user()->role_id;
+        }
+
+        return UserRole::Member;
     }
 }
