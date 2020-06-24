@@ -12,10 +12,10 @@ class Release_number extends Model
 
     public function image()
     {
-        return $this->belongsTo('Backend\image');
+        return $this->belongsTo('Backend\app\image');
     }
     public function posts()
     {
-        return $this->hasMany('Backend\Post');
+        return $this->hasMany('Backend\app\Post');
     }
 }
