@@ -12,6 +12,6 @@ class Image extends Model
 
     public function release_numbers()
     {
-    	return $this->hasMany('Release_number');
+    	return $this->hasMany('Backend\Release_number');
     }
 }

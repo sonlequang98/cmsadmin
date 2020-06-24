@@ -16,6 +16,6 @@ class Release_number extends Model
     }
     public function posts()
     {
-        return $this->hasMany('Backend\app\Post');
+        return $this->hasMany('Backend\Post');
     }
 }
