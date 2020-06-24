@@ -5228,7 +5228,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       dropzoneOptions: {
-        url: "http://adminsite.local/api/images",
+        url: "http://sonlq-admin.herokuapp.com/api/images",
         thumbnailWidth: 150,
         dictDefaultMessage: "<img src='https://img.icons8.com/ios/50/000000/upload-to-cloud.png'><br>Drop or choose image"
       },
@@ -6505,7 +6505,7 @@ __webpack_require__.r(__webpack_exports__);
         image: null
       },
       dropzoneOptions: {
-        url: "http://adminsite.local/api/images",
+        url: "http://sonlq-admin.herokuapp.com/api/images",
         thumbnailWidth: 150,
         thumbnailHeight: 150,
         dictDefaultMessage: "<img src='https://img.icons8.com/ios/50/000000/upload-to-cloud.png'><br>Drop or choose image"
@@ -6801,7 +6801,7 @@ __webpack_require__.r(__webpack_exports__);
       category_child: [],
       release_numbers: [],
       dropzoneOptions: {
-        url: "http://adminsite.local/api/images",
+        url: "http://sonlq-admin.herokuapp.com/api/images",
         thumbnailWidth: 150,
         thumbnailHeight: 150,
         dictDefaultMessage: "<img src='https://img.icons8.com/ios/50/000000/upload-to-cloud.png'><br>Drop or choose image"
@@ -7245,7 +7245,7 @@ var yyyy = today.getFullYear();
       },
       imageDelete: true,
       dropzoneOptions: {
-        url: "http://adminsite.local/api/images",
+        url: "http://sonlq-admin.herokuapp.com/api/images",
         thumbnailWidth: 150,
         dictDefaultMessage: "<img src='https://img.icons8.com/ios/50/000000/upload-to-cloud.png'><br>Drop or choose image"
       }
@@ -7485,7 +7485,7 @@ __webpack_require__.r(__webpack_exports__);
         margin: "10px , 0"
       },
       dropzoneOptions: {
-        url: "http://adminsite.local/api/images",
+        url: "http://sonlq-admin.herokuapp.com/api/images",
         thumbnailWidth: 160,
         thumbnailHeight: 160,
         dictDefaultMessage: "<img src='https://img.icons8.com/ios/50/000000/upload-to-cloud.png'><br>Drop or choose image"
@@ -63903,10 +63903,10 @@ var render = function() {
                           name: "clipboard",
                           rawName: "v-clipboard",
                           value: function() {
-                            return "http://adminsite.local/" + image.upload_path
+                            return "http://sonlq-admin.herokuapp.com/" + image.upload_path
                           },
                           expression:
-                            "() =>'http://adminsite.local/' + image.upload_path"
+                            "() =>'http://sonlq-admin.herokuapp.com/' + image.upload_path"
                         }
                       ],
                       staticClass: "btnCopy",
@@ -64017,12 +64017,12 @@ var render = function() {
                               rawName: "v-clipboard",
                               value: function() {
                                 return (
-                                  "http://adminsite.local/" +
+                                  "http://sonlq-admin.herokuapp.com/" +
                                   _vm.imageDetail.upload_path
                                 )
                               },
                               expression:
-                                "() =>'http://adminsite.local/' + imageDetail.upload_path"
+                                "() =>'http://sonlq-admin.herokuapp.com/' + imageDetail.upload_path"
                             }
                           ],
                           attrs: { id: "btnCopyDetail" }
