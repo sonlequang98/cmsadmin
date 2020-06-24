@@ -111,7 +111,7 @@ export default {
 
       imageDelete: true,
       dropzoneOptions: {
-        url: "http://adminsite.local/api/images",
+        url: "http://sonlq-admin.herokuapp.com/api/images",
         thumbnailWidth: 150,
         dictDefaultMessage:
           "<img src='https://img.icons8.com/ios/50/000000/upload-to-cloud.png'><br>Drop or choose image"
