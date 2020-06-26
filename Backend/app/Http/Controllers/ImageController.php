@@ -51,11 +51,11 @@ class ImageController extends Controller
             $now = Carbon::now()->format('YmdHis');
             $name = $name.$now.'.'.$file->getClientOriginalExtension();
             $file->move(public_path() . '/web/images/', $name);
+            $imageEncode = 'data:image/jpeg;base64,' . base64_encode(file_get_contents(public_path() . '/web/images/'.$name));
         }
         $data = [
             'name' => $name,
-            'upload_path' => '/web/images/' . $name,
-            'path' => public_path()
+            'upload_path' => $imageEncode
         ];
         return response()->json([
             'data' => $this->image->create($data),
