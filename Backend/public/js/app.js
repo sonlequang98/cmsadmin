@@ -68201,7 +68201,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "user-action" }, [
-        _c("p", [_vm._v("Create・Edit。Delete")])
+        _c("p", [_vm._v("Create・Edit・Delete")])
       ])
     ])
   },
@@ -84504,7 +84504,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! F:\test_code\TestUploadImgToFreeServe\cmsadmin\Backend\resources\assets\js\app.js */"./Backend/resources/assets/js/app.js");
+module.exports = __webpack_require__(/*! E:\CMS_Admin\cmsadmin\Backend\resources\assets\js\app.js */"./Backend/resources/assets/js/app.js");
 
 
 /***/ }),

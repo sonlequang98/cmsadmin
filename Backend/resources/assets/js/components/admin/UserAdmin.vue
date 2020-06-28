@@ -67,7 +67,7 @@
             <p>Password</p>
           </div>
           <div class="user-action">
-            <p>Create・Edit。Delete</p>
+            <p>Create・Edit・Delete</p>
           </div>
         </div>
 
