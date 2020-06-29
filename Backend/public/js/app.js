@@ -8099,7 +8099,7 @@ __webpack_require__.r(__webpack_exports__);
 
         _this5.paginate.sizeUser++;
         _this5.paginate.total++;
-        _this5.successful = 'ユーザーを保存しました。';
+        _this5.successful = 'Success';
         var self = _this5;
         setTimeout(function () {
           self.successful = null;
@@ -8146,7 +8146,7 @@ __webpack_require__.r(__webpack_exports__);
         _this7.paginate.total = _this7.users.total;
 
         if (_this7.users.data.length == 0) {
-          _this7.emptySearch = '検索結果がありません。';
+          _this7.emptySearch = 'Not found';
         }
 
         _this7.isLoading = false;

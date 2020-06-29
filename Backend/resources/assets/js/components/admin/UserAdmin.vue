@@ -365,7 +365,7 @@ export default {
           this.refreshFromRegister();
           this.paginate.sizeUser++;
           this.paginate.total++;
-          this.successful = 'ユーザーを保存しました。';
+          this.successful = 'Success';
           let self = this;
           setTimeout(function() {
             self.successful = null;
@@ -425,7 +425,7 @@ export default {
           this.paginate.total = this.users.total;
           if(this.users.data.length ==0)
           {
-            this.emptySearch = '検索結果がありません。';
+            this.emptySearch = 'Not found';
           }
           this.isLoading = false;
         })
